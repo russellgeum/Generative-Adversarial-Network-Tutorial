@@ -1,16 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-# from google.colab import drive
-# drive.mount('/content/drive')
-
-
-# In[2]:
-
-
 import os, glob
 import numpy as np
 import matplotlib.pyplot as plt
@@ -27,10 +14,6 @@ get_ipython().system('pip install tqdm')
 
 tf.__version__
 
-
-# In[3]:
-
-
 SimpsonFileName = "/content/drive/My Drive/Colab Notebooks/Datasets/Simpson"
 Local_SimpsonFileName = "C:/Users/Maritimus/Desktop/Simpson DCGAN/Simpson"
 
@@ -44,15 +27,7 @@ for dirname, _, filenames in os.walk(Local_SimpsonFileName):
 print (DirectoryList)
 np.random.shuffle(DirectoryList)
 
-
-# In[4]:
-
-
 print (np.shape(DirectoryList))
-
-
-# In[5]:
-
 
 length = int(len(DirectoryList))
 
@@ -66,10 +41,6 @@ for number in tqdm(range (length)):
     SimpsonImage.append(Image/255.)
 
 print (np.shape(SimpsonImage))
-
-
-# In[6]:
-
 
 # 데이터 셔플, Generator 함수, Discriminator 함수를 정의
 def Build_Shuffle_BatchData (BatchSize, Input) :
@@ -171,9 +142,6 @@ def Build_GetNoise (batch_size, noise_size):
     return np.random.uniform(-1., 1., size=[batch_size, noise_size])
 
 
-# In[7]:
-
-
 TotalEpoch = 600
 BatchSize = 100
 NoiseSize = 100
@@ -210,9 +178,6 @@ UpdateOps = tf.get_collection (tf.GraphKeys.UPDATE_OPS)
 with tf.control_dependencies(UpdateOps):
     TrainDisc = tf.train.AdamOptimizer(LearningRate1, beta1 = 0.5)                             .minimize(LossDisc, var_list=DiscVars)
     TrainGene = tf.train.AdamOptimizer(LearningRate2, beta1 = 0.5)                             .minimize(LossGene, var_list=GeneVars)
-
-
-# In[ ]:
 
 
 Discriminator_Loss_Graph = []
@@ -260,4 +225,3 @@ with tf.Session() as sess:
 
         if (epoch+1) % 50 == 0:
             saver.save(sess, "C:/Users/Maritimus/Desktop/Simpson DCGAN/Simpson/save/DCGAN_save_" + str(epoch+1) + ".ckpt")
-

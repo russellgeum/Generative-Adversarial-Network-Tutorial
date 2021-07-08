@@ -1,13 +1,24 @@
 # Introdunction  
 MNIST 데이터들로 여러가지 Generative Adversarial Networks을 구현  
 논문의 조건을 생각하고, 더 나아가 바꾸어가면서 GAN 알고리즘을 연습  
-그리고 심슨 이미지 데이터로 가짜 심슨 캐릭터를 형성하는 구현  
+그리고 심슨 이미지와 포켓몬 이미지 데이터로 DCGAN을 구현  
+
 # DCGAN for Simpson
 ![Time Line](https://github.com/Doyosae/GAN_Simpson/blob/master/sample/timeline.gif)  
 # Latent Space
 ![DCGAN Latent](https://github.com/Doyosae/GAN_Simpson/blob/master/sample/latent.gif)  
 
-# Summary  
+# DCGAN for Pokemon  
+### High Resolution  
+![High1](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample1/high%20(7).png)
+![High2](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample1/high%20(6).png)
+![High3](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample1/high%20(4).png)
+### Low Resolution  
+![sample2](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample2/low%20(2).png)
+![sample4](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample2/low%20(4).png)
+![sample6](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample2/low%20(6).png)
+
+# GAN Zoo for MNIST  
 ## 1. GAN  
 - Generative Adversairal Network의 첫 시작이 되는 논문  
 

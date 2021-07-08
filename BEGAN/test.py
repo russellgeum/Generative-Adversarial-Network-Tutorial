@@ -4,10 +4,10 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 
 import model
-from Module import BEGAN
-from Utility import Data_Processing
-from Utility import GetNoiseFunctions
-from Utility import LatentSpace
+from module import BEGAN
+from utility import Data_Processing
+from utility import GetNoiseFunctions
+from utility import LatentSpace
 
 
 

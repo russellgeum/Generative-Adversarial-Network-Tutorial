@@ -1,6 +1,0 @@
-model_checkpoint_path: "C:/Users/Maritimus/Desktop/Simpson DCGAN/Simpson/save/DCGAN_save_350.ckpt"
-all_model_checkpoint_paths: "C:/Users/Maritimus/Desktop/Simpson DCGAN/Simpson/save/DCGAN_save_150.ckpt"
-all_model_checkpoint_paths: "C:/Users/Maritimus/Desktop/Simpson DCGAN/Simpson/save/DCGAN_save_200.ckpt"
-all_model_checkpoint_paths: "C:/Users/Maritimus/Desktop/Simpson DCGAN/Simpson/save/DCGAN_save_250.ckpt"
-all_model_checkpoint_paths: "C:/Users/Maritimus/Desktop/Simpson DCGAN/Simpson/save/DCGAN_save_300.ckpt"
-all_model_checkpoint_paths: "C:/Users/Maritimus/Desktop/Simpson DCGAN/Simpson/save/DCGAN_save_350.ckpt"

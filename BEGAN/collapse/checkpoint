@@ -1,0 +1,3 @@
+model_checkpoint_path: "/content/gdrive/My Drive/Colab Notebooks/BEGAN/save/model.ckpt-100"
+all_model_checkpoint_paths: "/content/gdrive/My Drive/Colab Notebooks/BEGAN/save/model.ckpt-50"
+all_model_checkpoint_paths: "/content/gdrive/My Drive/Colab Notebooks/BEGAN/save/model.ckpt-100"

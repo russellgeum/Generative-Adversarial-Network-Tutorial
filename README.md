@@ -4,19 +4,17 @@ MNIST 데이터들로 여러가지 Generative Adversarial Networks을 구현
 그리고 심슨 이미지와 포켓몬 이미지 데이터로 DCGAN을 구현  
 
 # DCGAN for Simpson
-![Time Line](https://github.com/Doyosae/GAN_Simpson/blob/master/sample/timeline.gif)  
-# Latent Space
-![DCGAN Latent](https://github.com/Doyosae/GAN_Simpson/blob/master/sample/latent.gif)  
+### Timeline
+![Time Line](https://github.com/Doyosae/Generative_Adversarial_Network/blob/master/sample/timeline.gif)  
+### Latent Space
+![DCGAN Latent](https://github.com/Doyosae/Generative_Adversarial_Network/blob/master/sample/latent.gif)  
 
 # DCGAN for Pokemon  
 ### High Resolution  
-![High1](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample1/high%20(7).png)
-![High2](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample1/high%20(6).png)
-![High3](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample1/high%20(4).png)
-### Low Resolution  
-![sample2](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample2/low%20(2).png)
-![sample4](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample2/low%20(4).png)
-![sample6](https://github.com/Doyosae/GAN_Pokemon/blob/master/DCGAN/sample2/low%20(6).png)
+![High1](https://github.com/Doyosae/Generative_Adversarial_Network/blob/master/sample/sample1/high%20(7).png)
+![High2](https://github.com/Doyosae/Generative_Adversarial_Network/blob/master/sample/sample1/high%20(6).png)
+![High3](https://github.com/Doyosae/Generative_Adversarial_Network/blob/master/sample/sample1/high%20(4).png)
+
 
 # GAN Zoo for MNIST  
 ## 1. GAN  

@@ -1,7 +1,7 @@
 # Introdunction  
 MNIST 데이터들로 여러가지 Generative Adversarial Networks을 구현  
 논문의 조건을 생각하고, 더 나아가 바꾸어가면서 GAN 알고리즘을 연습  
-그리고 심슨 이미지와 포켓몬 이미지 데이터로 DCGAN을 구현  
+그리고 심슨 이미지와 포켓몬 이미지 데이터로 DCGAN을 구현 (포켓몬 이미지 코드는 증발)  
 
 # DCGAN for Simpson
 ### Timeline

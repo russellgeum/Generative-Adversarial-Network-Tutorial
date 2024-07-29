@@ -62,7 +62,7 @@ MNIST 데이터들로 여러가지 Generative Adversarial Networks을 구현
   
 ![WGAN1](https://github.com/Doyosae/Generative_Adversarial_Network/blob/master/sample/sample_wgan/WGAN1.png)
 ![WGAN2](https://github.com/Doyosae/Generative_Adversarial_Network/blob/master/sample/sample_wgan/WGAN2.png)
-![WGAN3](https://github.com/Doyosae/Generative_Adversarial_Network/blob/master/sample/sample_wgan/WGAN3.png
+![WGAN3](https://github.com/Doyosae/Generative_Adversarial_Network/blob/master/sample/sample_wgan/WGAN3.png)
 
 ## 5. LSGAN  
 - 나의 구현에서는 Adam optimizer는 좋은 성능을 보이지 못함 (batch nomalization을 적용하였음에도 불구하고)  
